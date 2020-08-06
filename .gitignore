@@ -21,10 +21,11 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
-# Yarn "Zero-Installs" (https://yarnpkg.com/advanced/qa/#which-files-should-be-gitignored)
 .yarn/*
-!.yarn/cache
 !.yarn/releases
 !.yarn/plugins
 !.yarn/sdks
 !.yarn/versions
+.pnp.*
+
+lib/
